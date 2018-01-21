@@ -1,0 +1,106 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+ /*BORDERS*/
+.front-page {
+ 	background: #B2FFE1;
+ 	position: fixed;
+ 	}
+
+  .about-page {
+   	background: #ffb2f7;
+   	position: fixed;
+   	}
+
+    .contact-page {
+     	background: #b2d0ff;
+     	position: fixed;
+     	}
+
+      .projects-page {
+        background: #ffe1b2;
+        position: fixed;
+      }
+
+ 	#left, #right {
+ 		top: 0; bottom: 0;
+ 		width: 15px;
+ 		}
+ 		#left { left: 0; }
+ 		#right { right: 0; }
+
+ 	#top, #bottom {
+ 		left: 0; right: 0;
+ 		height: 15px;
+ 		}
+ 		#top { top: 0; }
+ 		#bottom { bottom: 0; }
+
+    @media
+
+  /* Fairly small screens including iphones */
+  only screen and (max-width: 500px),
+
+  /* iPads */
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+  {
+  	#top, #bottom, #left, #right { display: none; }
+  }
+
+
+/*NAVIGATION HOVER*/
+
+.home:hover { background-color: #B2FFE1;
+}
+
+.projects:hover {background-color: #ffe1b2;
+}
+
+.about:hover {background-color: #ffb2f7;}
+
+.contact:hover {background-color: #b2d0ff;}
+
+
+/*NAVIGATION PADDING*/
+.tiptop {
+  padding: 2.5rem 3.5rem;
+}
+
+
+.test {
+  background-image: url("/images/test.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.casey {
+  border-bottom: 15px solid #B2FFE1;
+}
+
+
+.facts{
+  background-color: #ffb2f7;
+}
+
+
+.colorone {
+  background-color: #B2FFE1;
+}
+
+.colortwo {
+  background-color: #b2d0ff;
+}
+
+.colorthree {
+  background-color: #ffe1b2;
+}
+
+.colorfour {
+  background-color: #ffb2f7;
+}
+
+.colorfive {
+  background-color: #f7ffb2;
+}
